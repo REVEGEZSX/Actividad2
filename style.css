@@ -1,33 +1,29 @@
-body{
+body
+{
     width: 90%;
     margin: auto;
     color:white;
     background: url(Alters.jpg);
 }
-header{
+header
+{
     border:solid 2px orangered;
     margin: .5em 0 .5em 0;
     font-size: 70px;
+    text-align: center;
+    color: aqua; 
 }
-section{
+section
+{
     float: left;
     border:solid 2px teal;
     width: 68%;
     margin-bottom: 1em;
 }
-.contenedor{
+.contenedor
+{
     margin: auto;
     margin-top: 3em;
-}
-.contenedor #izquierda{
-    float: left;
-    border:solid 2px lightseagreen;
-    border-radius: .5em;
-}
-.contenedor #derecha{
-    float: right;
-    border:solid 2px lightseagreen;
-    border-radius: .5em;
 }
 aside{
     float: right;
@@ -51,8 +47,9 @@ a
     width:260PX; 
     height: 370PX;
 }
-h1
+h1,h2,h3
 {
+    color: red;
     text-align: center;
 }
 .aqua
@@ -64,4 +61,17 @@ h1
 #logo
 {
     float: right;
+}
+#kratos
+{
+    width: 780px; height:370px;
+    padding: 4em 0 1em 2.8em; 
+}
+#zeus
+{
+    padding-bottom: 4.2em; 
+}
+#ares
+{
+    padding-bottom: 4.2em; 
 }
