@@ -3,11 +3,11 @@ body
     width: 90%;
     margin: auto;
     color:white;
-    background: url(Alters.jpg);
+    color: gold;
 }
 header
 {
-    border:solid 2px orangered;
+    border:solid 3px orangered;
     margin: .5em 0 .5em 0;
     font-size: 70px;
     text-align: center;
@@ -16,7 +16,7 @@ header
 section
 {
     float: left;
-    border:solid 2px teal;
+    border:solid 3px teal;
     width: 68%;
     margin-bottom: 1em;
 }
@@ -27,7 +27,7 @@ section
 }
 aside{
     float: right;
-    border:solid 2px mediumorchid;
+    border:solid 3px mediumorchid;
     width: 30%;
     text-align: center;
 }
@@ -74,4 +74,18 @@ h1,h2,h3
 #ares
 {
     padding-bottom: 4.2em; 
+}
+.P1
+{
+    background: url(Alters.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.P2
+{
+    background: url(Shielder.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
