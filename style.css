@@ -1,0 +1,67 @@
+body{
+    width: 90%;
+    margin: auto;
+    color:white;
+    background: url(Alters.jpg);
+}
+header{
+    border:solid 2px orangered;
+    margin: .5em 0 .5em 0;
+    font-size: 70px;
+}
+section{
+    float: left;
+    border:solid 2px teal;
+    width: 68%;
+    margin-bottom: 1em;
+}
+.contenedor{
+    margin: auto;
+    margin-top: 3em;
+}
+.contenedor #izquierda{
+    float: left;
+    border:solid 2px lightseagreen;
+    border-radius: .5em;
+}
+.contenedor #derecha{
+    float: right;
+    border:solid 2px lightseagreen;
+    border-radius: .5em;
+}
+aside{
+    float: right;
+    border:solid 2px mediumorchid;
+    width: 30%;
+    text-align: center;
+}
+.d 
+{
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+a
+{
+    text-decoration: none;
+    color: brown;
+}
+#pdl
+{
+    padding: 1em 0 1em 1.3em; 
+    width:260PX; 
+    height: 370PX;
+}
+h1
+{
+    text-align: center;
+}
+.aqua
+{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+}
+#logo
+{
+    float: right;
+}
